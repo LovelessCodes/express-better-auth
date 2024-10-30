@@ -1,0 +1,23 @@
+{
+	"name": "express-better-auth",
+	"version": "0.0.1",
+	"description": "",
+	"type": "module",
+	"scripts": {
+		"start": "node server.js",
+		"lint": "biome lint ./",
+		"format": "biome check ./ --write"
+	},
+	"main": "server.js",
+	"dependencies": {
+		"@libsql/client": "^0.14.0",
+		"better-auth": "^0.6.2",
+		"dotenv": "^16.4.5",
+		"drizzle-orm": "^0.36.0",
+		"express": "^4.21.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"drizzle-kit": "^0.27.0"
+	}
+}
